@@ -56,4 +56,4 @@ if btn_click:
     travel_recommendations = chain.invoke(raw_input)
     
     st.write("### Here are your travel options:")
-    st.write(Travel_recommendations)
+    st.write(travel_recommendations)
