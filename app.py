@@ -1,4 +1,3 @@
-# Import necessary libraries
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
@@ -34,13 +33,12 @@ chain = chat_prompt_template | chat_model | parser
 # This section creates a simple web interface for users to input their travel details.
 
 # Set up the title of the web app
-st.title(":tophat: AI-Powered Travel Planner")
+st.title(":airplane: AI-Powered Travel Planner")
 
-# Input fields for the user
+# User inputs
 source = st.text_input(label=":earth_asia: Source:", placeholder="Enter Your Source...")
 destination = st.text_input(label=":earth_asia: Destination:", placeholder="Enter Your Destination...")
 date = st.date_input(label=":calendar: Date:", value=None)
-passengers = st.number_input(label=":blond-haired-man: No. Of Passengers:", min_value=1, max_value=10, value=1, step=1, placeholder="Enter No. Of Passengers...")
 
 # Button to trigger the travel plan search
 btn_click = st.button("Search for Available Trip Plans")
@@ -58,6 +56,5 @@ if btn_click:
     # Invoke the AI chain to get the travel recommendations
     travel_recommendations = chain.invoke(raw_input)
     
-    # Display the results in a user-friendly format
     st.write("### Here are your travel options:")
-    st.write(travel_recommendations)
+    st.write(Travel_recommendations)
