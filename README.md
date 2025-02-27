@@ -14,9 +14,9 @@ The AI-Powered Travel Planner is an application designed to assist users in find
 - Output Parsing: The model’s outputs are parsed and formatted for easy understanding.
 
 ## Components
-- User Interface (UI): A web-based application interface to collect user input.
-- LangChain Framework: For managing LLM-based conversation flow.
-- Google GenAI Model: To generate intelligent travel recommendations.
+- **User Interface (UI)**: A web-based application interface to collect user input.
+- **LangChain Framework**: For managing LLM-based conversation flow.
+- **Google GenAI Model**: To generate intelligent travel recommendations.
 
 ## Workflow
 - User inputs source and destination in the application.
@@ -26,14 +26,14 @@ The AI-Powered Travel Planner is an application designed to assist users in find
 
 ## Technologies Used
 - Programming Language: Python
-- User Interface: Streamlit
+- User Interface: Streamli**t
 - Framework: LangChain
 - AI Model: Google GenAI
 
 ## Acknowledgments
-- LangChain for providing the framework to build LLM-powered applications.
-- Google GenAI for intelligent data processing and response generation.
-- Streamlit for simplifying the creation of the user interface.
+- **LangChain** for providing the framework to build LLM-powered applications.
+- **Google GenAI** for intelligent data processing and response generation.
+- **Streamlit** for simplifying the creation of the user interface.
 
 ## ⚠️ Important Note  
 This app relies on an AI API with **limited usage per minute**.  
