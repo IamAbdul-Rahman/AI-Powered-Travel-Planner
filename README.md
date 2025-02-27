@@ -8,10 +8,10 @@ The AI-Powered Travel Planner is an application designed to assist users in find
 - Ensure an intuitive user interface for seamless interaction.
 
 ## Features
-- Personalized Travel Recommendations: The app uses LangChain’s chat-based models to suggest travel destinations based on user inputs.
-- Interactive UI: The app is built with Streamlit, which provides a simple, user-friendly interface for users to interact with.
-- Dynamic Itinerary Creation: Based on user queries, the app can generate itineraries and offer suggestions for different types of vacations (beach, cultural, adventure, etc.).
-- Output Parsing: The model’s outputs are parsed and formatted for easy understanding.
+- **Personalized Travel Recommendations:** The app uses LangChain’s chat-based models to suggest travel destinations based on user inputs.
+- **Interactive UI:** The app is built with Streamlit, which provides a simple, user-friendly interface for users to interact with.
+- **Dynamic Itinerary Creation:** Based on user queries, the app can generate itineraries and offer suggestions for different types of vacations (beach, cultural, adventure, etc.).
+- **Output Parsing:** The model’s outputs are parsed and formatted for easy understanding.
 
 ## Components
 - **User Interface (UI)**: A web-based application interface to collect user input.
@@ -26,7 +26,7 @@ The AI-Powered Travel Planner is an application designed to assist users in find
 
 ## Technologies Used
 - Programming Language: Python
-- User Interface: Streamli**t
+- User Interface: Streamlit
 - Framework: LangChain
 - AI Model: Google GenAI
 
