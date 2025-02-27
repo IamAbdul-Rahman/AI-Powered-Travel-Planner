@@ -9,7 +9,7 @@ import os
 chat_prompt_template = ChatPromptTemplate(
     messages=[
         ("system", "You are a helpful AI Assistant for a travel agency. Your job is to help users find flight, railway, or bus bookings from a source to a destination. Provide a detailed list of all available travel options in the form of a table, including trip cost, facilities, and other relevant details. List all available flights, railways, and buses."),
-        ("human", "Book a trip from {source} to {destination} on {date} for {passengers} passenger(s). Do not ask for more information. Just provide a list of all available flights, railways, and buses.")
+        ("human", "Book a trip from {source} to {destination} on {date} for {passengers} passenger(s). Do not ask for more information. Just provide a list of all available flights, railways, and buses.Give travel recommendations based on it.")
     ],
     partial_variables={"source": "DEL", "destination": "BLR", "passengers": 1}  # Default values for testing
 )
