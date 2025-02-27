@@ -50,7 +50,6 @@ if btn_click:
         "source": source,
         "destination": destination,
         "date": date,
-        "passengers": passengers
     }
     
     # Invoke the AI chain to get the travel recommendations
